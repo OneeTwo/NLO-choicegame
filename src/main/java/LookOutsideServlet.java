@@ -14,6 +14,7 @@ public class LookOutsideServlet extends HttpServlet {
         String path = "/scene.jsp";
         String sceneText = "You have gone outside, it was cold at this season of year.. You need to decide what to do";
         req.setAttribute("sceneText",sceneText);
+        req.setAttribute("isEnding", false);
 
         Map<String, String> choices = Map.of(
                 "Run away", req.getContextPath() + "/start/look/outside/run",
@@ -23,5 +24,6 @@ public class LookOutsideServlet extends HttpServlet {
 
         RequestDispatcher dispatcher = req.getRequestDispatcher(path);
         dispatcher.forward(req, resp);
+
     }
 }

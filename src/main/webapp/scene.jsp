@@ -11,3 +11,9 @@
         </li>
     </c:forEach>
 </ul>
+
+<c:if test="${isEnding}">
+    <form action="${pageContext.request.contextPath}/" method="get">
+        <button type="submit">Restart Game</button>
+    </form>
+</c:if>

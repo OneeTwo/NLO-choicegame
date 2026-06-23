@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String path = "/start.jsp";
-        String sceneText = "You woke up at night because of a strange blue light..";
+        String sceneText = "You woke up at night because of a strange blue light...";
         req.setAttribute("sceneText",sceneText);
 
         String question = "What could it be?";
