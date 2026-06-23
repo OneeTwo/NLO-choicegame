@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.util.Map;
 
 @WebServlet("/start/look/outside/forest")
 public class ForestServlet extends HttpServlet {
@@ -15,8 +16,16 @@ public class ForestServlet extends HttpServlet {
                 "The blue light shines somewhere ahead, but the deeper you go, " +
                 "the quieter it becomes. No birds, no wind, no sounds at all.";
         req.setAttribute("sceneText",sceneText);
+        req.setAttribute("isEnding", false);
+
+        Map<String, String> choices = Map.of(
+                "Start analysing", req.getContextPath() + "/start/look/outside/forest/analysis",
+                "Go deeper (there's no way back)", req.getContextPath() + "/start/look/outside/forest/unknown"
+        );
+        req.setAttribute("choices", choices);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher(path);
         dispatcher.forward(req, resp);
+
     }
 }
