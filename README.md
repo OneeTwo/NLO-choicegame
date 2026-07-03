@@ -4,31 +4,31 @@ A simple choice-based web game where every decision changes the direction of the
 
 **Features**
 
-Multiple story paths
-Several unique endings
-Interactive choice system
-Data-driven story stored in JSON
-Responsive interface using Bootstrap
+Multiple story paths. 
+Several unique endings. 
+Interactive choice system. 
+Data-driven story stored in JSON. 
+Responsive interface using Bootstrap.
 
 **Technologies**
 
-Java.
-Jakarta Servlets.
-JSP.
-JSTL.
-Jackson.
-Maven.
-Apache Tomcat 10.
-Bootstrap 5.
+Java. 
+Jakarta Servlets. 
+JSP. 
+JSTL. 
+Jackson. 
+Maven. 
+Apache Tomcat 10. 
+Bootstrap 5. 
 
 **How It Works**
 
-The player starts a new game.
-Every choice leads to another question.
-Questions are loaded from questions.json.
-GameService searches questions by their identifier.
-GameServlet sends the selected question to the JSP page.
-The game continues until one of the endings is reached.
+The player starts a new game. 
+Every choice leads to another question. 
+Questions are loaded from questions.json. 
+GameService searches questions by their identifier. 
+GameServlet sends the selected question to the JSP page. 
+The game continues until one of the endings is reached. 
 
 **Requirements**
 
