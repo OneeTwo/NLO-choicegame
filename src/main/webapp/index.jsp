@@ -1,10 +1,16 @@
 <html>
 <head>
     <title>NLO Choice Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h2 style="text-align: center;">Choice Game about NLO</h2>
-    <p style="text-align: center;">The short game which plot depends on your choices. You need to complete the game choosing best options to interact with NLO</p>
-    <a href="/NLO-choicegame-1.0-SNAPSHOT/game?scene=start">Start game</a>
+<body class="bg-dark text-light">
+<div class="container text-center mt-5">
+    <h1>NLO Choice Game</h1>
+    <p class="lead">The story changes depending on your choices.</p>
+
+    <a class="btn btn-primary" href="/NLO-choicegame-1.0-SNAPSHOT/game?scene=start">
+        Start Game
+    </a>
+</div>
 </body>
 </html>

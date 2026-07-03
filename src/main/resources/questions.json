@@ -1,0 +1,164 @@
+[
+  {
+    "id": "start",
+    "text": "You woke up at night because of a strange blue light...",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Look through the window",
+        "nextQuestionId": "look"
+      },
+      {
+        "text": "Go outside",
+        "nextQuestionId": "outside"
+      },
+      {
+        "text": "Hide under the blanket",
+        "nextQuestionId": "hide"
+      }
+    ]
+  },
+  {
+    "id": "look",
+    "text": "You see a glowing object above the forest.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Stay at home",
+        "nextQuestionId": "home"
+      },
+      {
+        "text": "Go outside",
+        "nextQuestionId": "lookOutside"
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "text": "You decided to stay at home and ignore the strange light. Later that night, a meteorite struck your house, leaving no chance of survival.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "outside",
+    "text": "You followed the strange light deep into the forest. You were abducted by the unknown beings that night. Many years later, in a distant place far from Earth, you were killed.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "hide",
+    "text": "You hid under the blanket and ignored the strange light. By morning it was gone, and the mystery remained unsolved forever.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "lookOutside",
+    "text": "You have gone outside. It is a cold night, and you must decide what to do.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Run away",
+        "nextQuestionId": "run"
+      },
+      {
+        "text": "Go to the forest",
+        "nextQuestionId": "forest"
+      }
+    ]
+  },
+  {
+    "id": "run",
+    "text": "You ran home and never discovered the truth.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "forest",
+    "text": "You have been walking through the forest for 10 minutes. The blue light shines somewhere ahead, but the deeper you go, the quieter it becomes. No birds, no wind, no sounds at all.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Start analysing",
+        "nextQuestionId": "analysis"
+      },
+      {
+        "text": "Go deeper (there's no way back)",
+        "nextQuestionId": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "analysis",
+    "text": "Is this possible? I am seeing things that science cannot explain.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Run away",
+        "nextQuestionId": "run"
+      },
+      {
+        "text": "What if this is a threat to all humanity?",
+        "nextQuestionId": "brave"
+      }
+    ]
+  },
+  {
+    "id": "unknown",
+    "text": "You don't know what's going on, but your mind keeps telling you: \"Everything feels wrong.\" You have just seen a strange being on your right.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Run away",
+        "nextQuestionId": "run"
+      },
+      {
+        "text": "Contact them",
+        "nextQuestionId": "contact"
+      }
+    ]
+  },
+  {
+    "id": "contact",
+    "text": "Okay... I should say something.",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Hello?",
+        "nextQuestionId": "greet"
+      },
+      {
+        "text": "Who are you..?",
+        "nextQuestionId": "whoru"
+      }
+    ]
+  },
+  {
+    "id": "greet",
+    "text": "You started communicating with the unknown being. To be honest, I had no idea what it was talking about. It was the smartest creature I had ever met because it spoke English. For a moment, I thought it might actually be an alien from outer space. It spoke too fast and then suddenly switched to Spanish or French. After somehow reading my mind, it fell silent and stared at me for a minute. Then an overwhelming force made me fall asleep. The next morning, I had disappeared, and to this day no one knows what happened to me.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "whoru",
+    "text": "A creature suddenly became aggressive. Everything around me fell silent. It rushed toward me with incredible speed. I tried to run, but my legs refused to move. A few seconds later, everything went black... It was my last night.",
+    "ending": true,
+    "choices": []
+  },
+  {
+    "id": "brave",
+    "text": "What if I'm the only one who can see it? Should I use this opportunity to my advantage?",
+    "ending": false,
+    "choices": [
+      {
+        "text": "Time to change",
+        "nextQuestionId": "final"
+      }
+    ]
+  },
+  {
+    "id": "final",
+    "text": "As the strange light grew brighter, the truth became clear. The being was not an enemy but a messenger from a distant civilization. I became the first bridge between humanity and intelligent life from the stars. Together we prevented a global catastrophe and opened the door to a new era of peace and discovery. The future of Earth changed forever because of a strange blue light above a silent forest.",
+    "ending": true,
+    "choices": []
+  }
+]
