@@ -12,14 +12,14 @@ Responsive interface using Bootstrap
 
 **Technologies**
 
-Java
-Jakarta Servlets
-JSP
-JSTL
-Jackson
-Maven
-Apache Tomcat 10
-Bootstrap 5
+Java.
+Jakarta Servlets.
+JSP.
+JSTL.
+Jackson.
+Maven.
+Apache Tomcat 10.
+Bootstrap 5.
 
 **How It Works**
 
