@@ -89,7 +89,7 @@
   },
   {
     "id": "analysis",
-    "text": "Is this possible? I am seeing things that science cannot explain.",
+    "text": "\"Is this possible? I am seeing things that science cannot explain\".",
     "ending": false,
     "choices": [
       {
@@ -119,7 +119,7 @@
   },
   {
     "id": "contact",
-    "text": "Okay... I should say something.",
+    "text": "\"Okay... I should say something\".",
     "ending": false,
     "choices": [
       {
@@ -134,19 +134,19 @@
   },
   {
     "id": "greet",
-    "text": "You started communicating with the unknown being. To be honest, I had no idea what it was talking about. It was the smartest creature I had ever met because it spoke English. For a moment, I thought it might actually be an alien from outer space. It spoke too fast and then suddenly switched to Spanish or French. After somehow reading my mind, it fell silent and stared at me for a minute. Then an overwhelming force made me fall asleep. The next morning, I had disappeared, and to this day no one knows what happened to me.",
+    "text": "You started communicating with the unknown being. \"To be honest, I had no idea what it was talking about. It was the smartest creature I had ever met because it spoke English. For a moment, I thought it might actually be an alien from outer space. It spoke too fast and then suddenly switched to Spanish or French. After somehow reading my mind, it fell silent and stared at me for a minute. Then an overwhelming force made me fall asleep. The next morning, I had disappeared, and to this day no one knows what happened to me\".",
     "ending": true,
     "choices": []
   },
   {
     "id": "whoru",
-    "text": "A creature suddenly became aggressive. Everything around me fell silent. It rushed toward me with incredible speed. I tried to run, but my legs refused to move. A few seconds later, everything went black... It was my last night.",
+    "text": "A creature suddenly became aggressive. \"Everything around me fell silent. It rushed toward me with incredible speed. I tried to run, but my legs refused to move. A few seconds later, everything went black... It was my last night\".",
     "ending": true,
     "choices": []
   },
   {
     "id": "brave",
-    "text": "What if I'm the only one who can see it? Should I use this opportunity to my advantage?",
+    "text": "\"What if I'm the only one who can see it? Should I use this opportunity to my advantage?\"",
     "ending": false,
     "choices": [
       {
@@ -157,7 +157,7 @@
   },
   {
     "id": "final",
-    "text": "As the strange light grew brighter, the truth became clear. The being was not an enemy but a messenger from a distant civilization. I became the first bridge between humanity and intelligent life from the stars. Together we prevented a global catastrophe and opened the door to a new era of peace and discovery. The future of Earth changed forever because of a strange blue light above a silent forest.",
+    "text": "As the strange light grew brighter, the truth became clear. The being was not an enemy but a messenger from a distant civilization. \"I became the first bridge between humanity and intelligent life from the stars. Together we prevented a global catastrophe and opened the door to a new era of peace and discovery. The future of Earth changed forever because of a strange blue light above a silent forest\".",
     "ending": true,
     "choices": []
   }
